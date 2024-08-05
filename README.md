@@ -11,9 +11,9 @@ Downloading Files and Pieces: The download_file and download_piece functions han
 Running the Script
 <h3>To use the script, you would run it from the command line with various commands. For example:</h3>
 
-Decode bencoded string: python main.py decode <bencoded_string>
-Extract torrent info: python main.py info <torrent_file>
-Get peers: python main.py peers <torrent_file>
-Perform handshake: python main.py handshake <torrent_file> <peer_ip:peer_port>
-Download file: python main.py download -o <output_file> <torrent_file>
-Download specific piece: python main.py download_piece -o <output_file> <torrent_file> <piece_index>
+Decode bencoded string: python main.py decode <bencoded_string> <br>
+Extract torrent info: python main.py info <torrent_file><br>
+Get peers: python main.py peers <torrent_file><br>
+Perform handshake: python main.py handshake <torrent_file> <peer_ip:peer_port><br>
+Download file: python main.py download -o <output_file> <torrent_file><br>
+Download specific piece: python main.py download_piece -o <output_file> <torrent_file> <piece_index><br>
