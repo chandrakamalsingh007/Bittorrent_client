@@ -18,11 +18,10 @@ Perform handshake: python main.py handshake <torrent_file> <peer_ip:peer_port><b
 Download file: python main.py download -o <output_file> <torrent_file><br>
 Download specific piece: python main.py download_piece -o <output_file> <torrent_file> <piece_index><br>
 
-<h4>In this repo </h4>
-first:-<br>
-git clone <br>
+<h4>We can run this simple BitTorrent Client in windows by following.</h4>
+git clone https://github.com/chandrakamalsingh007/Bittorrent_client.git <br>
 cd  Bittorrent_Client     <br>
-first you have python installed <br>
+first you have python installed in your system  <br>
 pip install -r requirements.txt<br>
 python main.py download -o sample.bin sample.torrent
 
